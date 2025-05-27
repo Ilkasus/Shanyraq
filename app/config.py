@@ -2,8 +2,7 @@ import os
 from dotenv import load_dotenv
 from pathlib import Path
 
-# Загрузить переменные из .env, если есть
-env_path = Path('.') / '.env'
+env_path = Path('.') / 'venv'
 load_dotenv(dotenv_path=env_path)
 
 class Settings:
